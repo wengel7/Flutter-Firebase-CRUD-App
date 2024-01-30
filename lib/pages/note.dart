@@ -4,7 +4,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:random_string/random_string.dart';
 import'service/database.dart';
 
-
 class Note extends StatefulWidget {
   const Note({super.key});
 
