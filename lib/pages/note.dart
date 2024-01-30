@@ -14,6 +14,7 @@ class Note extends StatefulWidget {
 class _NoteState extends State<Note> {
   TextEditingController titleController = TextEditingController();
   TextEditingController noteController = TextEditingController();
+
   String result = '';
 
   @override
