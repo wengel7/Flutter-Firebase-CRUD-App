@@ -97,6 +97,7 @@ class _ReadNoteState extends State<ReadNote> {
                       //   onChanged: (text) {
                       //   // print('First text field: $text (${text.characters.length})');
                       // },
+
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           contentPadding: EdgeInsets.all(20),

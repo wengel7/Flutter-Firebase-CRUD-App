@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-//??
 class DatabaseMethods{
   Future addNoteDetails(Map<String, dynamic> noteInfoMap, String id)async{
     return await FirebaseFirestore.instance
