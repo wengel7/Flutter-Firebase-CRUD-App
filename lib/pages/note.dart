@@ -7,6 +7,7 @@ import'service/database.dart';
 class Note extends StatefulWidget {
   const Note({super.key});
 
+
   @override
   State<Note> createState() => _NoteState();
 }
