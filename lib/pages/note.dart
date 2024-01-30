@@ -56,6 +56,7 @@ class _NoteState extends State<Note> {
                 await DatabaseMethods()
                     .addNoteDetails(noteInfoMap,
                     id).then((value) =>
+
                 {
                   Fluttertoast.showToast(
                       msg: "The note has been added successfully.",
